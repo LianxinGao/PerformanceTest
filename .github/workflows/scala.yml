@@ -20,5 +20,5 @@ jobs:
         distribution: 'adopt'
     - run: java -version
     - name: Run tests
-      run: scala -version
+      run: sbt sbt-version
     
